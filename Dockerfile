@@ -10,9 +10,6 @@ COPY requirements.txt .
 # Menginstal dependensi Python yang diperlukan
 RUN pip install --no-cache-dir -r requirements.txt
 
-#Port Variable
-EXPOSE 8080
-
 # Menyalin seluruh kode sumber aplikasi ke dalam kontainer
 COPY . .
 
