@@ -1,6 +1,6 @@
 FROM node:latest
-WORKDIR /master
-COPY . /master
+WORKDIR /Hair_Style_Recommendation
+COPY . /Hair_Style_Recommendation
 RUN npm install
 EXPOSE 8080
 CMD ["npm", "start"]
