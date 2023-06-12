@@ -15,7 +15,7 @@ COPY model.h5 .
 
 # Menyalin seluruh kode sumber aplikasi ke dalam kontainer
 COPY . .
-COPY package.json .
+COPY ./assets
 
 # Menjalankan perintah saat kontainer dimulai
 CMD ["python", "app.py"]
