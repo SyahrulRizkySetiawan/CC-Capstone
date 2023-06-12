@@ -10,6 +10,9 @@ COPY requirements.txt .
 # Menginstal dependensi Python yang diperlukan
 RUN pip install --no-cache-dir -r requirements.txt
 
+# Salin model.h5 ke dalam kontainer
+COPY model.h5 .
+
 # Menyalin seluruh kode sumber aplikasi ke dalam kontainer
 COPY . .
 
