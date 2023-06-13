@@ -59,7 +59,7 @@ def check_face_and_predict(dirty_image):
 
 # Fungsi untuk merekomendasikan potongan rambut berdasarkan bentuk wajah
 def recommend_hairstyles(face_shape):
-    hairstyles_dir = "data/pics/recommendation_pics/" # Path to the directory containing hairstyle models
+    hairstyles_dir = "C:\\Users\\ayuad\\Documents\\ADIANI\MSIB Bangkit 2023\\api\\recommendation" # Path to the directory containing hairstyle models
 
     subdirectories = {
         "Oblong": ["Bergelombang", "Bob", "Layer", "Poni Samping"],
